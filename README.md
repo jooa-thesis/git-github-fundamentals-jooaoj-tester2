@@ -4,6 +4,16 @@
 
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
 
+## How to Git
+
+1. Make sure you have Git installed by just writing "git" in any command-line interface
+2. Copy this repository from the top of this page - either with the http- or ssh-link
+3. Then, if you don't already have, make sure you either:
+3.1 generate an ssh-key pair and copy the public-key to GitHub (access settings)
+3.2 or generate an oauth access token (from developer setting)
+4. When you have git ready and security keys set up, just write `git clone <your-repository-link>` into your CLI
+5. When making changes, you mainly add, commit and push (`git add .`, `git commit -m "<commit-message>"` and `git push`)
+
 ## :octocat: Git and GitHub
 
 Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
@@ -108,6 +118,7 @@ The tests are failing right now because the method isn't outputting the correct 
 
 ### Run command
 `pytest`
+- then make fixes to according source code
 
 ### Notes
 - pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
